@@ -1,0 +1,26 @@
+# Игнорируем ненужные файлы:
+
+# 1. Папки с зависимостями
+**/node_modules/
+
+# 2. Файлы окружения (с паролями!)
+.env
+*.env
+
+# 3. Служебные файлы IDE
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# 4. Логи и временные файлы
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 5. Скомпилированные файлы
+**/dist/
+**/build/
