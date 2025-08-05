@@ -1,0 +1,8 @@
+{
+    "appId": "com.sanatorium.booking",
+    "files": ["dist/**/*", "package.json"],
+    "win": {
+      "target": "nsis",
+      "icon": "build/icon.ico"
+    }
+  }

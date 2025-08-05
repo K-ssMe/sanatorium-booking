@@ -1,0 +1,23 @@
+{
+  "scripts": {
+    "start:backend": "cd backend && npm run dev",
+    "start:frontend": "cd frontend && npm start",
+    "build:frontend": "cd frontend && npm run build",
+    "build:electron": "cd frontend && npm run electron:build",
+    "start": "concurrently \"npm:start:backend\" \"npm:start:frontend\""
+  },
+  "devDependencies": {
+    "@types/electron": "^1.4.38",
+    "@types/react": "^19.1.9",
+    "electron-builder": "^26.0.12",
+    "typescript": "^5.9.2",
+    "webpack": "^5.101.0"
+  },
+  "dependencies": {
+    "chart.js": "^4.5.0",
+    "html-to-pdf": "^0.1.11",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "xlsx": "^0.18.5"
+  }
+}
